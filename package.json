@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist/legal && cp index.html about.html styles.css dist/ && cp legal/*.html legal/*.css dist/legal/"
+    "build": "rm -rf dist && mkdir -p dist/legal && cp index.html about.html styles.css robots.txt sitemap.xml google1eed3269ed21c0c3.html dist/ && cp legal/*.html legal/*.css dist/legal/"
   }
 }
