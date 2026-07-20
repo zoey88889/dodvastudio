@@ -1014,6 +1014,42 @@ h3 {
   font-weight: 400;
 }
 
+/* The homepage stays concise; full project content is presented on case.html. */
+.cases-page .case-stack {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cases-page .case-study {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.cases-page .case-hero {
+  min-height: 390px;
+}
+
+.cases-page .case-hero-copy h3 {
+  font-size: clamp(3.2rem, 5.7vw, 5.8rem);
+}
+
+.cases-page .case-body {
+  display: block;
+  padding: 18px 24px;
+}
+
+.cases-page .case-intro,
+.cases-page .case-services,
+.cases-page .case-highlights,
+.cases-page .case-screens {
+  display: none;
+}
+
+.cases-page .case-cta {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 .contact-section {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(420px, 1fr);
@@ -1240,6 +1276,10 @@ h3 {
   }
 
   .case-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .cases-page .case-stack {
     grid-template-columns: 1fr;
   }
 }

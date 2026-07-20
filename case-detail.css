@@ -1,0 +1,10 @@
+.case-detail-page { background: var(--night); color: #fff8ef; }
+.case-detail-main { width: min(1180px, calc(100% - 28px)); margin: 0 auto; padding: 124px 0 90px; }
+.case-back { display: inline-block; margin-bottom: 24px; color: rgba(255,255,255,.62); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.case-detail-page .case-study { background: rgba(255,255,255,.06); }
+.case-detail-page .case-hero-copy h1 { margin: 12px 0 0; font-family: "Instrument Serif", "Noto Serif SC", serif; font-size: clamp(4rem, 9vw, 8.8rem); font-weight: 400; line-height: .9; }
+.case-detail-page .case-intro h2 { max-width: 720px; margin: 18px 0 0; font-size: clamp(2.3rem, 4.8vw, 5rem); line-height: 1; }
+.case-detail-page .site-footer { width: 100%; }
+.case-next { display: flex; justify-content: space-between; gap: 24px; padding: 34px 0 0; color: rgba(255,255,255,.7); font-size: .8rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.case-next a:hover, .case-back:hover { color: var(--gold); }
+@media (max-width: 700px) { .case-detail-main { width: calc(100% - 20px); padding-top: 104px; } .case-detail-page .case-hero-copy h1 { font-size: 4.2rem; } .case-next { align-items: flex-start; flex-direction: column; } }
